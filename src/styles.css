@@ -1,0 +1,38 @@
+.home {
+  height: 300px;
+  background-color: yellowgreen;
+}
+.skill {
+  height: 300px;
+  background-color: yellow;
+}
+.education {
+  height: 300px;
+  background-color: orchid;
+}
+#contact {
+  height: 300px;
+  background-color: powderblue;
+}
+.animation {
+  animation-name: color-change;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+@keyframes color-change {
+  0% {
+    background-color: powderblue;
+  }
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: powderblue;
+  }
+}
